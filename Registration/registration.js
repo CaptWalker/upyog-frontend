@@ -1,5 +1,30 @@
 let coordinates;
 
+async function submitCustomerRegisterForm(){
+
+  const firstNameCustomer = document.getElementById("firstNameCustomer").value;
+  const lastNameCustomer = document.getElementById("lastNameCustomer").value;
+  const customerContact = document.getElementById("customerContact").value;
+  const customerEmail = document.getElementById("customerEmail").value;
+  const customerPassword = document.getElementById("customerPassword").value;
+  const customerPasswordVerify = document.getElementById("customerPasswordVerify").value;
+  const customerAddress = document.getElementById("customerAddress").value;
+  const customerCoordinates=coordinates;
+
+}
+
+async function resetCustomerRegisterForm(){
+
+  document.getElementById("firstNameCustomer").value="";
+  document.getElementById("lastNameCustomer").value="";
+  document.getElementById("customerContact").value="";
+  document.getElementById("customerEmail").value="";
+  document.getElementById("customerPassword").value="";
+  document.getElementById("customerPasswordVerify").value="";
+  document.getElementById("customerAddress").value="";
+  coordinates="";  
+
+}
 function initMap() {
     var myLatlng = {lat: 22.5726, lng: 88.3639};
 

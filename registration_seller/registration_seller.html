@@ -23,20 +23,20 @@
                 <form class="needs-validation" novalidate>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="FirstNameSeller">First name</label>
-                        <input type="text" class="form-control" id="FirstNameSeller" placeholder="First name" required>
+                        <label for="firstNameSeller">First name</label>
+                        <input type="text" class="form-control" id="firstNameSeller" placeholder="First name" required>
                         
                       </div>
                       <div class="form-group col-md-6">
-                        <label for="LastNameSeller">Last name</label>
-                        <input type="text" class="form-control" id="LastNameSeller"  placeholder="Last name" required>
+                        <label for="lastNameSeller">Last name</label>
+                        <input type="text" class="form-control" id="lastNameSeller"  placeholder="Last name" required>
                         
                       </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                        <label for="SellerContact">Contact no.</label>
-                        <input type="text" class="form-control" id="SellerContact"  placeholder="+91- Contact No." required>
+                        <label for="sellerContact">Contact no.</label>
+                        <input type="text" class="form-control" id="sellerContact"  placeholder="+91- Contact No." required>
                         <div class="invalid-feedback">
                          Please provide a Contact Number.
                         </div>                      
@@ -44,26 +44,26 @@
                     
                     
                         <div class="form-group col-md-6">
-                            <label for="SellerEmail">Email address</label>
-                            <input type="email" class="form-control" id="SellerEmail" placeholder="email@example.com">
+                            <label for="sellerEmail">Email address</label>
+                            <input type="email" class="form-control" id="sellerEmail" placeholder="email@example.com">
                           </div>
                         </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                        <label for="SellerPassword">Password</label>
-                        <input type="password" class="form-control" id="SellerPassword" placeholder="Password">
+                        <label for="sellerPassword">Password</label>
+                        <input type="password" class="form-control" id="sellerPassword" placeholder="Password">
                       </div>
                     
                     
                         <div class="form-group col-md-6">
-                            <label for="SellerPasswordVerify">Confirm Password</label>
-                            <input type="password" class="form-control" id="SellerPasswordVerify" placeholder="Confirm Password">
+                            <label for="sellerPasswordVerify">Confirm Password</label>
+                            <input type="password" class="form-control" id="sellerPasswordVerify" placeholder="Confirm Password">
                         </div>
                     </div>
                     <div class="form-row">
                       <div class="form-group col-md-12">
-                          <label for="SellerID">GST Number</label>
-                          <input type="text" class="form-control" id="SellerID"  placeholder="00-AA-ABC1234-XXXX" required>
+                          <label for="sellerGSTID">GST Number</label>
+                          <input type="text" class="form-control" id="sellerGSTID"  placeholder="00-AA-ABC1234-XXXX" required>
                                               
                           </div>
                           
@@ -71,14 +71,14 @@
 
                     <div class="form-row">
                         <div class="form-group col-md-12">
-                            <label for="SellerAddress">Address</label>
-                            <input type="text" class="form-control" id="SellerAddress"  placeholder="Address" required>              
+                            <label for="sellerAddress">Address</label>
+                            <input type="text" class="form-control" id="sellerAddress"  placeholder="Address" required>              
                             </div>
                     </div>
                     
                     <div class="form-row">
                       <div class="form-group col-md-12">
-                          <label for="CustomerAddress">Pin point you're address</label>
+                          <label for="map">Pin point you're address</label>
                           <div id="map">
                           </div>
                       </div>
@@ -96,8 +96,8 @@
                       </div>
                     </div>
                     <div class="" style="width: 100%; text-align: center;">
-                        <button type="button" class="btn btn-primary">Register</button>
-                        <button type="button" class="btn btn-secondary">Cancel</button>   
+                        <button type="button" class="btn btn-primary" onclick="submitSellerRegisterForm()">Register</button>
+                        <button type="button" class="btn btn-secondary" onclick="resetSellerRegisterForm()">Cancel</button>   
                       </div>
                   </form>
                               
