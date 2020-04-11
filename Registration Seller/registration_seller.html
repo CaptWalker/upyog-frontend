@@ -6,7 +6,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./registration.css">
+    <link rel="stylesheet" href="./registration_seller.css">
 </head>
 <body>
 
@@ -18,25 +18,25 @@
     </nav>
     <section class="d-flex login p-4 pt-5">
         <div class="card border-primary mx-auto mb-3" style="width:80%">
-            <div class="card-header bg-transparent mx-auto h4">Register</div>
+            <div class="card-header bg-transparent mx-auto h4">Register as Service Provider</div>
             <div class="card-body">
                 <form class="needs-validation" novalidate>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="FirstNameCustomer">First name</label>
-                        <input type="text" class="form-control" id="FirstNameCustomer" placeholder="First name" required>
+                        <label for="FirstNameSeller">First name</label>
+                        <input type="text" class="form-control" id="FirstNameSeller" placeholder="First name" required>
                         
                       </div>
                       <div class="form-group col-md-6">
-                        <label for="LastNameCutomer">Last name</label>
-                        <input type="text" class="form-control" id="LastNameCutomer"  placeholder="Last name" required>
+                        <label for="LastNameSeller">Last name</label>
+                        <input type="text" class="form-control" id="LastNameSeller"  placeholder="Last name" required>
                         
                       </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                        <label for="CustomerContact">Contact no.</label>
-                        <input type="text" class="form-control" id="CustomerContact"  placeholder="+91- Contact No." required>
+                        <label for="SellerContact">Contact no.</label>
+                        <input type="text" class="form-control" id="SellerContact"  placeholder="+91- Contact No." required>
                         <div class="invalid-feedback">
                          Please provide a Contact Number.
                         </div>                      
@@ -44,27 +44,35 @@
                     
                     
                         <div class="form-group col-md-6">
-                            <label for="CustomerEmail">Email address</label>
-                            <input type="email" class="form-control" id="CustomerEmail" placeholder="email@example.com">
+                            <label for="SellerEmail">Email address</label>
+                            <input type="email" class="form-control" id="SellerEmail" placeholder="email@example.com">
                           </div>
                         </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                        <label for="CustomerPassword">Password</label>
-                        <input type="password" class="form-control" id="CustomerPassword" placeholder="Password">
+                        <label for="SellerPassword">Password</label>
+                        <input type="password" class="form-control" id="SellerPassword" placeholder="Password">
                       </div>
                     
                     
                         <div class="form-group col-md-6">
-                            <label for="CustomerPasswordVerify">Confirm Password</label>
-                            <input type="password" class="form-control" id="CustomerPasswordVerify" placeholder="Confirm Password">
+                            <label for="SellerPasswordVerify">Confirm Password</label>
+                            <input type="password" class="form-control" id="SellerPasswordVerify" placeholder="Confirm Password">
                         </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                          <label for="SellerID">GST Number</label>
+                          <input type="text" class="form-control" id="SellerID"  placeholder="00-AA-ABC1234-XXXX" required>
+                                              
+                          </div>
+                          
                     </div>
 
                     <div class="form-row">
                         <div class="form-group col-md-12">
-                            <label for="CustomerAddress">Address</label>
-                            <input type="text" class="form-control" id="CustomerAddress"  placeholder="Address" required>
+                            <label for="SellerAddress">Address</label>
+                            <input type="text" class="form-control" id="SellerAddress"  placeholder="Address" required>
                                                 
                             </div>
                             
@@ -109,6 +117,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="./registration.js"></script>
+    <script src="./registration_seller.js"></script>
 </body>
 </html>
