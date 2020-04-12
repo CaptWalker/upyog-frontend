@@ -23,20 +23,20 @@
                 <form class="needs-validation" novalidate>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="FirstNameDeliveryAgent">First name</label>
-                        <input type="text" class="form-control" id="FirstNameDeliveryAgent" placeholder="First name" required>
+                        <label for="firstNameDeliveryAgent">First name</label>
+                        <input type="text" class="form-control" id="firstNameDeliveryAgent" placeholder="First name" required>
                         
                       </div>
                       <div class="form-group col-md-6">
-                        <label for="LastNameDeliveryAgent">Last name</label>
-                        <input type="text" class="form-control" id="LastNameDeliveryAgent"  placeholder="Last name" required>
+                        <label for="lastNameDeliveryAgent">Last name</label>
+                        <input type="text" class="form-control" id="lastNameDeliveryAgent"  placeholder="Last name" required>
                         
                       </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                        <label for="DeliveryAgentContact">Contact no.</label>
-                        <input type="text" class="form-control" id="DeliveryAgentContact"  placeholder="+91- Contact No." required>
+                        <label for="deliveryAgentContact">Contact no.</label>
+                        <input type="text" class="form-control" id="deliveryAgentContact"  placeholder="+91- Contact No." required>
                         <div class="invalid-feedback">
                          Please provide a Contact Number.
                         </div>                      
@@ -44,39 +44,39 @@
                     
                     
                         <div class="form-group col-md-6">
-                            <label for="DeliveryAgentEmail">Email address</label>
-                            <input type="email" class="form-control" id="DeliveryAgentEmail" placeholder="email@example.com">
+                            <label for="deliveryAgentEmail">Email address</label>
+                            <input type="email" class="form-control" id="deliveryAgentEmail" placeholder="email@example.com">
                           </div>
                         </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                        <label for="DeliveryAgentPassword">Password</label>
-                        <input type="password" class="form-control" id="DeliveryAgentPassword" placeholder="Password">
+                        <label for="deliveryAgentPassword">Password</label>
+                        <input type="password" class="form-control" id="deliveryAgentPassword" placeholder="Password">
                       </div>
                     
                     
                         <div class="form-group col-md-6">
-                            <label for="DeliveryAgentPasswordVerify">Confirm Password</label>
-                            <input type="password" class="form-control" id="DeliveryAgentPasswordVerify" placeholder="Confirm Password">
+                            <label for="deliveryAgentPasswordVerify">Confirm Password</label>
+                            <input type="password" class="form-control" id="deliveryAgentPasswordVerify" placeholder="Confirm Password">
                         </div>
                     </div>
                     <div class="form-row">
                       <div class="form-group col-md-12">
-                          <label for="DeliveryAgentID">AADHAR Number</label>
-                          <input type="text" class="form-control" id="DeliveryAgentID"  placeholder="XXXX-XXXX-XXXX" required>
+                          <label for="deliveryAgentID">AADHAR Number</label>
+                          <input type="text" class="form-control" id="deliveryAgentID"  placeholder="XXXX-XXXX-XXXX" required>
                                               
                           </div>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group col-md-12">
-                            <label for="DeliveryAgentAddress">Address</label>
-                            <input type="text" class="form-control" id="DeliveryAgentAddress"  placeholder="Address" required>                    
+                            <label for="deliveryAgentAddress">Address</label>
+                            <input type="text" class="form-control" id="deliveryAgentAddress"  placeholder="Address" required>                    
                             </div>
                     </div>
                     <div class="form-row">
                       <div class="form-group col-md-12">
-                          <label for="CustomerAddress">Pin point you're address</label>
+                          <label for="map">Pin point you're address</label>
                           <div id="map">
                           </div>                  
                       </div>
@@ -93,8 +93,8 @@
                       </div>
                     </div>
                     <div class="" style="width: 100%; text-align: center;">
-                        <button type="button" class="btn btn-primary">Register</button>
-                        <button type="button" class="btn btn-secondary">Cancel</button>   
+                        <button type="button" class="btn btn-primary" onclick="submitDeliveryRegisterForm()">Register</button>
+                        <button type="button" class="btn btn-secondary" onclick="resetDeliveryRegisterForm()">Cancel</button>   
                       </div>
                   </form>
               

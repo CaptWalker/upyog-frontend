@@ -1,12 +1,12 @@
 // Login form
 
-async function submitForm() {
-    clearErrors();
+async function submitLoginForm() {
+  
     const url = "https://bijliman-backend.herokuapp.com/api/login";
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
-    const isError = errorCheck(email);
-    if (!isError) {
+    //const isError = errorCheck(email);
+    //if (!isError) {
         document.getElementById("submit").disabled = true;
       
         var loginCred = {
@@ -42,7 +42,12 @@ async function submitForm() {
             "Some Error Occured while placing your order, please try again.";
             document.getElementById("modalButton").disabled = false;
         });
-    }
+    //}
+  }
+
+  async function resetLoginForm(){
+    document.getElementById("email").value="";
+    document.getElementById("password").value="";
   }
 
 //Login form end
