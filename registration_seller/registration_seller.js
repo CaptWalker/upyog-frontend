@@ -27,6 +27,7 @@ async function resetSellerRegisterForm(){
   coordinates="";  
 
 }
+
 function initMap() {
     var myLatlng = {lat: 22.5726, lng: 88.3639};
 
